@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TabLayout Scrolling</string>
+
+
+    <string name="recents">Recents</string>
+    <string name="favorites">Favorites</string>
+    <string name="nearby">Nearby</string>
+</resources>
