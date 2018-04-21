@@ -25,9 +25,10 @@ public class MainActivity extends AppCompatActivity {
         viewPager = (ViewPager) findViewById(R.id.viewPager_id);
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
 
-        adapter.addFragment(new RecentsFragment(), "");
-        adapter.addFragment(new FavoritesFragment(), "");
-        adapter.addFragment(new NearbyFragment(), "");
+        //if you want title if no then txt should be null
+        adapter.addFragment(new RecentsFragment(), "RECENTS");
+        adapter.addFragment(new FavoritesFragment(), "FAVORITES");
+        adapter.addFragment(new NearbyFragment(), "NEARBY");
 
         viewPager.setAdapter(adapter);
 
